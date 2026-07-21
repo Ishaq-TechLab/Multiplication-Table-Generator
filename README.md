@@ -153,7 +153,5 @@ java day5.MultiplicationTablleGenerator
 
 ## 👨‍💻 Author
 
-**Your Name**
-
-Ishaq Taj
+**Ishaq Taj**
 QA Automation Engineer | Java | Selenium | Test Automation
