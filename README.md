@@ -1,43 +1,55 @@
-# Java Multiplication Table Generator
+# 📚 Java Multiplication Table Generator
 
-## Overview
+![Java](https://img.shields.io/badge/Language-Java-orange?style=for-the-badge\&logo=java)
+![IDE](https://img.shields.io/badge/IDE-Eclipse-blue?style=for-the-badge\&logo=eclipseide)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
-The **Multiplication Table Generator** is a simple console-based Java application that generates the multiplication table for a number entered by the user. The program displays the multiplication table from **1 through 12**, making it a useful beginner project for practicing loops and arithmetic operations.
+A simple **console-based Java application** that generates the multiplication table of a number entered by the user. This beginner-friendly project demonstrates the use of loops, user input, and arithmetic operations in Java.
 
-This project demonstrates user input, `for` loops, variables, and formatted console output in Java.
+---
 
-## Features
+## ✨ Features
 
-* Accepts a number from the user
-* Generates the multiplication table from **1 to 12**
-* Displays each multiplication step clearly
-* Simple and easy-to-use console interface
+* 🔢 Accepts a number from the user
+* 📋 Generates the multiplication table from **1 to 12**
+* ⚡ Fast and lightweight console application
+* 🎯 Beginner-friendly Java project
+* 💻 Easy to understand and modify
 
-## Technologies Used
+---
 
-* Java
-* `Scanner` class for user input
-* `for` loop
-* Console-based application
+## 🛠️ Technologies Used
 
-## Project Structure
+| Technology       | Purpose                       |
+| ---------------- | ----------------------------- |
+| ☕ Java           | Programming Language          |
+| 🖥️ Console      | User Interface                |
+| 📥 Scanner Class | User Input                    |
+| 🔁 For Loop      | Generate Multiplication Table |
+
+---
+
+## 📁 Project Structure
 
 ```text
 day5/
 └── MultiplicationTablleGenerator.java
 ```
 
-## How It Works
+---
 
-1. The program prompts the user to enter a number.
-2. The entered number is stored in a variable.
-3. A `for` loop iterates from **1 to 12**.
-4. During each iteration:
+## 🚀 How It Works
 
-   * The program multiplies the entered number by the current loop value.
-   * The result is displayed in multiplication table format.
+1. ▶️ Run the program.
+2. ⌨️ Enter any integer.
+3. 🔄 The program loops from **1 to 12**.
+4. 🧮 Each multiplication result is calculated.
+5. 📄 The complete multiplication table is displayed.
 
-## Example Output
+---
+
+## 🖼️ Sample Output
 
 ```text
 Enter a Number to Print its Multiplication Table
@@ -59,7 +71,31 @@ The Multiplication Table of 7:
 7 X 12 = 84
 ```
 
-## How to Run
+---
+
+## 📸 Console Screenshot
+
+> Replace the image below with your own screenshot after uploading it to your repository.
+
+```markdown
+![Program Output](images/multiplication-table-output.png)
+```
+
+Example folder structure:
+
+```text
+Project/
+│── README.md
+│── images/
+│     └── multiplication-table-output.png
+│── src/
+│     └── day5/
+│            └── MultiplicationTablleGenerator.java
+```
+
+---
+
+## ▶️ How to Run
 
 ### Compile
 
@@ -73,30 +109,52 @@ javac day5/MultiplicationTablleGenerator.java
 java day5.MultiplicationTablleGenerator
 ```
 
-## Learning Concepts Demonstrated
+---
 
-* Java classes and methods
-* Variables and data types
-* User input using the `Scanner` class
-* `for` loops
-* Arithmetic operations
-* Console input and output
+## 🧠 Concepts Demonstrated
 
-## Possible Improvements
+* ☕ Java Fundamentals
+* 📥 User Input (`Scanner`)
+* 🔁 `for` Loops
+* ➗ Arithmetic Operations
+* 🖥️ Console Output
+* 📦 Variables and Data Types
 
-* Allow users to specify the maximum multiplier instead of always stopping at 12.
-* Generate multiplication tables for multiple numbers in one execution.
-* Validate user input to handle non-numeric values.
-* Format the output into aligned columns for improved readability.
-* Allow users to continue generating tables without restarting the application.
-* Create a graphical user interface (GUI) using Java Swing or JavaFX.
+---
 
-## Notes
+## 💡 Future Enhancements
 
-* The program generates multiplication tables from **1 through 12**.
-* The entered value can be positive, negative, or zero.
-* Each multiplication result is displayed on a new line.
+* ✅ Let users choose the ending multiplier (e.g., up to 20 or 100)
+* ✅ Print tables for multiple numbers
+* ✅ Validate invalid user input
+* ✅ Format output into aligned columns
+* ✅ Repeat without restarting the application
+* ✅ Develop a Java Swing or JavaFX GUI version
 
-## Author
-Ishaq Taj
-QA Automation Engineer | Java | Selenium | Test Automation
+---
+
+## 📖 Example
+
+| Input | Output                        |
+| ----: | :---------------------------- |
+|     5 | 5 × 1 = 5 ... 5 × 12 = 60     |
+|     9 | 9 × 1 = 9 ... 9 × 12 = 108    |
+|    12 | 12 × 1 = 12 ... 12 × 12 = 144 |
+
+---
+
+## 📌 Notes
+
+* The multiplication table is generated from **1 through 12**.
+* Supports positive, negative, and zero values.
+* Designed as a beginner Java programming exercise.
+
+---
+
+## 👨‍💻 Author
+
+**Your Name**
+
+Java Programming Practice Project
+
+⭐ If you found this project helpful, consider starring the repository on GitHub!
