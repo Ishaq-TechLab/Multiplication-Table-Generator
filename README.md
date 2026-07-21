@@ -155,6 +155,5 @@ java day5.MultiplicationTablleGenerator
 
 **Your Name**
 
-Java Programming Practice Project
-
-⭐ If you found this project helpful, consider starring the repository on GitHub!
+Ishaq Taj
+QA Automation Engineer | Java | Selenium | Test Automation
